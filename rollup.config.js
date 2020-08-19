@@ -1,8 +1,8 @@
 import typescript from 'rollup-plugin-typescript2';
 export default {
-  input: 'src/index.ts',
+  input: 'src/Midi.ts',
   output: {
-    file: 'dist/index.js',
+    file: 'dist/Midi.js',
     format: 'esm',
   },
   // external: ['midi-file-esbuild'],
