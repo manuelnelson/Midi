@@ -1,5 +1,5 @@
 import { Header } from "./Header";
-import { MidiPitchBendEvent } from "midi-file";
+import { MidiPitchBendEvent } from "midi-file-esbuild";
 
 const privateHeaderMap = new WeakMap<PitchBend, Header>();
 

@@ -1,4 +1,4 @@
-import { MidiInstrumentEvent, MidiTrackData } from "midi-file";
+import { MidiInstrumentEvent, MidiTrackData } from "midi-file-esbuild";
 import { DrumKitByPatchID, instrumentByPatchID, InstrumentFamilyByID } from "./InstrumentMaps";
 import { Track } from "./Track";
 

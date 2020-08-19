@@ -1,5 +1,5 @@
 import { Header } from "./Header";
-import { MidiControllerEvent } from "midi-file";
+import { MidiControllerEvent } from "midi-file-esbuild";
 
 /**
  * @hidden

@@ -1,4 +1,4 @@
-import { MidiNoteEvent } from "midi-file";
+import { MidiNoteEvent } from "midi-file-esbuild";
 import { Header } from "./Header";
 
 /**

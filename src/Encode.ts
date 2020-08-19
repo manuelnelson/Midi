@@ -1,7 +1,7 @@
-import { MidiPitchBendEvent, writeMidi } from "midi-file";
+import { MidiPitchBendEvent, writeMidi } from "midi-file-esbuild";
 import { MidiControllerEvent, MidiData, MidiEndOfTrackEvent,
 	MidiInstrumentEvent, MidiKeySignatureEvent, MidiNoteOffEvent,
-	MidiNoteOnEvent, MidiTempoEvent, MidiTextEvent, MidiTimeSignatureEvent, MidiTrackNameEvent } from "midi-file";
+	MidiNoteOnEvent, MidiTempoEvent, MidiTextEvent, MidiTimeSignatureEvent, MidiTrackNameEvent } from "midi-file-esbuild";
 import { ControlChange } from "./ControlChange";
 import { PitchBend } from "./PitchBend";
 import { KeySignatureEvent, keySignatureKeys, MetaEvent, TempoEvent, TimeSignatureEvent } from "./Header";

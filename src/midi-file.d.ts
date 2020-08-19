@@ -1,4 +1,4 @@
-declare module "midi-file" {
+declare module "midi-file-esbuild" {
 
 	// ////////////////////////////////////////////////////////
 	// THE EVENT TYPES

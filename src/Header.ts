@@ -1,4 +1,4 @@
-import { MidiData } from "midi-file";
+import { MidiData } from "midi-file-esbuild";
 import { search } from "./BinarySearch";
 
 const privatePPQMap = new WeakMap<Header, number>();

@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import { readFileSync, writeFileSync } from "fs";
-import { parseMidi } from "midi-file";
+import { parseMidi } from "midi-file-esbuild";
 import { basename, resolve } from "path";
 import { Midi } from "../src/Midi";
 // eslint-disable-next-line @typescript-eslint/no-var-requires

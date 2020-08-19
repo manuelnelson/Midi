@@ -1,4 +1,4 @@
-import { MidiChannelEvent, MidiTrackData, parseMidi } from "midi-file";
+import { MidiChannelEvent, MidiTrackData, parseMidi } from "midi-file-esbuild";
 import { encode } from "./Encode";
 import { Header, HeaderJSON } from "./Header";
 import { Track, TrackJSON } from "./Track";

@@ -1,4 +1,4 @@
-import { MidiControllerEvent, MidiNoteOffEvent, MidiNoteOnEvent, MidiPitchBendEvent, MidiTrackData, MidiTrackNameEvent } from "midi-file";
+import { MidiControllerEvent, MidiNoteOffEvent, MidiNoteOnEvent, MidiPitchBendEvent, MidiTrackData, MidiTrackNameEvent } from "midi-file-esbuild";
 import { insert } from "./BinarySearch";
 import { ControlChange, ControlChangeInterface } from "./ControlChange";
 import { ControlChangesJSON, createControlChanges } from "./ControlChanges";
