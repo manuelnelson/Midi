@@ -1,11 +1,11 @@
 {
 	"name": "tonejs-midi-esbuild",
-	"version": "2.0.0",
+	"version": "2.0.2",
 	"description": "Convert binary midi into JSON",
 	"main": "build/index.js",
-	"module": "dist/Midi.js",
-	"jsnext:main": "dist/Midi.js",
-	"types": "dist/Midi.d.ts",
+	"module": "dist/index.js",
+	"jsnext:main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"scripts": {
 		"build": "rm -rf dist && npm run tsc && npm run bundle",
 		"bundle": "rollup -c -m --environment INCLUDE_DEPS,BUILD:production",
