@@ -1,6 +1,6 @@
 {
 	"name": "tonejs-midi-esbuild",
-	"version": "2.0.2",
+	"version": "2.0.3",
 	"description": "Convert binary midi into JSON",
 	"main": "build/index.js",
 	"module": "dist/index.js",
