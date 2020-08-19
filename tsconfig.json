@@ -2,11 +2,11 @@
 	"compilerOptions": {
 		"noImplicitAny": false,
 		"outDir": "dist",
-		"module": "es6",
+		"module": "ES2015",
 		"moduleResolution": "node",
 		"sourceMap": true,
 		"esModuleInterop": true,
-		"target" : "es5",
+		"target" : "es6",
 		"declaration": true,
 		// "noUnusedLocals": true,
 		"lib" : ["es2015", "es2017", "dom"],
